@@ -1,7 +1,7 @@
-name: xray-docker-tls
+name: xray_docker_tls
 services:
     xray-docker-tls:
-        container_name: xray-tls
+        container_name: xray_tls
         ports:
             - 80:80
             - 443:443
